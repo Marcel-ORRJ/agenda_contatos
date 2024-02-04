@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+header, footer {
+    padding: 16px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header img {
+    height: 160px;
+}
+
+header h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+footer .regioes-1, footer .regioes-2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+footer .regioes-2 {
+    padding: 16px;
+}
+
+footer p {
+    font-size: 15px;
+}
+
+footer p b {
+    font-size: 24px;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    max-height: 640px;
+    width: 100%;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+form input {
+    font-size: 24px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid #000;
+    border-left: 2px solid #000;
+    padding: 8px;
+    margin-right: 8px;
+}
+
+form button {
+    background-color: #000;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 8px;
+}
+
+table {
+    width: 100%;
+    margin: 30px;
+}
+
+table th {
+    border-bottom: 2px solid #000;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table td {
+    padding: 16px;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
